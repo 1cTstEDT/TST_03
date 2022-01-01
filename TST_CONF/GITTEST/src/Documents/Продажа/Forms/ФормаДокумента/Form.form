@@ -229,6 +229,10 @@
           <segments>Объект.ТМЦ.Количество</segments>
         </paths>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ТМЦКоличествоПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ТМЦКоличествоРасширеннаяПодсказка</name>
         <id>31</id>
@@ -281,6 +285,10 @@
           <segments>Объект.ТМЦ.Цена</segments>
         </paths>
       </dataPath>
+      <handlers>
+        <event>OnChange</event>
+        <name>ТМЦЦенаПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ТМЦЦенаРасширеннаяПодсказка</name>
         <id>34</id>
